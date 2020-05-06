@@ -8,7 +8,7 @@ def load_library filepath
     empty_hash[key][:english] = value[0]
     empty_hash[key][:japanese] = value[1]
   end
-  empty_hash 
+  empty_hash
 end
 pp load_library "./lib/emoticons.yml"
 
