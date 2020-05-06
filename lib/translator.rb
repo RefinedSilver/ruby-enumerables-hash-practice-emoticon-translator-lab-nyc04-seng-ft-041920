@@ -1,10 +1,11 @@
 # require modules here
 require "yaml"
-def load_library
+def load_library filepath
   hash = {
     {:english => {}},
     {:japanese => {}}
   }
+  empty_hash = {}
 end
 p load_library
 
