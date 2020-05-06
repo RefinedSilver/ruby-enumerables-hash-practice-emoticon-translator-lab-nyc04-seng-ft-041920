@@ -2,11 +2,7 @@
 require "yaml"
 def load_library filepath
   library = YAML.load_file(filepath)
-  # result = {
-  #   {:english => {}},
-  #   {:japanese => {}}
-  # }
-library.each do |key, value|
+  library.each do |key, value|
   empty_hash = {}
 end
 p load_library
