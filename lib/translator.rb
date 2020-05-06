@@ -22,7 +22,7 @@ def get_japanese_emoticon(library, emoticon)
   return "Sorry, that emoticon was not found"
 end
 
-def get_english_meaning("./lib/emoticons.yml", e_value)
+def get_english_meaning(library, emoticon)
   emotions = load_library(library)
   emotions.each do |key, value|
     if emotions[key][:english] == emoticon
