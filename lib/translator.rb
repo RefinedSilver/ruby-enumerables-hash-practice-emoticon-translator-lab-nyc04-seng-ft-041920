@@ -19,11 +19,9 @@ def get_japanese_emoticon(library, emoticon)
     if emotions[key][:english] == emoticon
       return emotions[key][:japanese]
   end
-
   end
   return "Sorry, that emoticon was not found"
 end
-
 p get_japanese_emoticon
 # def get_english_meaning("./lib/emoticons.yml", e_value)
 #   require "yaml"
