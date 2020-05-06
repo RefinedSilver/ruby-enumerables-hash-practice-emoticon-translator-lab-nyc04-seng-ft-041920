@@ -12,9 +12,18 @@ def load_library filepath
 end
 # pp load_library "./lib/emoticons.yml"
 
-def get_japanese_emoticon(emoticon)
-p  load_library
+def get_japanese_emoticon(library, emoticon)
+  # code goes here
+  emotions = load_library(library)
+  emotions.each do |key, value|
+    if emotions[key][:english] == emoticon
+      return emotions[key][:japanese]
+  end
+  
+  end
+  return "Sorry, that emoticon was not found"
 end
+
 p get_japanese_emoticon
 # def get_english_meaning("./lib/emoticons.yml", e_value)
 #   require "yaml"
