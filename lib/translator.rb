@@ -10,11 +10,11 @@ def load_library filepath
   end
   empty_hash
 end
-pp load_library "./lib/emoticons.yml"
+# pp load_library "./lib/emoticons.yml"
 
-def get_japanese_emoticon("./lib/emoticons.yml", j_value)
+def get_japanese_emoticon(emoticon)
 
-emoticons.each = YAML.load_file("./lib/emoticons.yml")
+load_library = YAML.load_file("./lib/emoticons.yml")
 end
 p get_japanese_emoticon
 # def get_english_meaning("./lib/emoticons.yml", e_value)
