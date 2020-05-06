@@ -17,5 +17,6 @@ p get_japanese_emoticon
 def get_english_meaning("./lib/emoticons.yml", e_value)
   require "yaml"
 emoticons.each = YAML.load_file("./lib/emoticons.yml")
+puts " library[meaning][:english] #{library[:meaning][:english]}"
 end
 p get_english_meaning
