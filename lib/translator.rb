@@ -1,7 +1,7 @@
 # require modules here
 require "yaml"
 def load_library filepath
-  emoticons = YAML.load_file(filepath)
+  library = YAML.load_file(filepath)
   hash = {
     {:english => {}},
     {:japanese => {}}
