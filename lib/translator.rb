@@ -1,6 +1,6 @@
 # require modules here
 require "yaml"
-def load_library# array, value
+def load_library
   hash = {
     {:english => {}},
     {:japanese => {}}
