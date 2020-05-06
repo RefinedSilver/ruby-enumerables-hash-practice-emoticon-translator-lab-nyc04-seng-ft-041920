@@ -8,9 +8,9 @@ def load_library filepath
     empty_hash[key][:english] = value[0]
     empty_hash[key][:japanese] = value[1]
   end
-  empty_hash
+  empty_hash 
 end
-p load_library "./lib/emoticons.yml"
+pp load_library "./lib/emoticons.yml"
 
 # def get_japanese_emoticon("./lib/emoticons.yml", j_value)
 # #   require "yaml"
