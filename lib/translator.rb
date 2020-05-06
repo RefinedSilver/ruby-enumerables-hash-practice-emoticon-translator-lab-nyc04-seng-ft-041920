@@ -7,6 +7,8 @@ def load_library filepath
     empty_hash[key] = {}
     empty_hash[key][:english] = value[0]
     empty_hash[key][:japanese] = value[1]
+  end
+  empty_hash
 end
 p load_library
 
