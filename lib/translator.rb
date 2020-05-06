@@ -4,7 +4,7 @@ def load_library filepath
   empty_hash = {}
   library = YAML.load_file(filepath)
   library.each do |key, value|
-    empty_hash[key]
+    empty_hash[key] = {}
 end
 p load_library
 
