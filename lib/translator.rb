@@ -6,7 +6,7 @@ def load_library filepath
   #   {:english => {}},
   #   {:japanese => {}}
   # }
-
+library.each do |key, value|
   empty_hash = {}
 end
 p load_library
