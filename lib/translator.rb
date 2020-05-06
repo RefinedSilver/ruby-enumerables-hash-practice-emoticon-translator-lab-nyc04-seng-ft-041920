@@ -1,4 +1,3 @@
-# require modules here
 require "yaml"
 def load_library filepath
   empty_hash = {}
