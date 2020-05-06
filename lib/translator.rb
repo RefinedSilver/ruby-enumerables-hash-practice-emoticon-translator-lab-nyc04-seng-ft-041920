@@ -13,8 +13,8 @@ end
 # pp load_library "./lib/emoticons.yml"
 
 def get_japanese_emoticon(emoticon)
+p  load_library
 
-load_library = YAML.load_file("./lib/emoticons.yml")
 end
 p get_japanese_emoticon
 # def get_english_meaning("./lib/emoticons.yml", e_value)
