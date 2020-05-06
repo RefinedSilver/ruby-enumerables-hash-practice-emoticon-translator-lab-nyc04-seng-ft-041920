@@ -10,7 +10,7 @@ def load_library filepath
   end
   empty_hash
 end
-p load_library
+p load_library "./lib/emoticons.yml"
 
 # def get_japanese_emoticon("./lib/emoticons.yml", j_value)
 # #   require "yaml"
