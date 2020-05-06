@@ -22,7 +22,7 @@ def get_japanese_emoticon(library, emoticon)
   end
   return "Sorry, that emoticon was not found"
 end
-p get_japanese_emoticon ("./lib/emoticons.yml", "O:)")
+ # get_japanese_emoticon ("./lib/emoticons.yml", "O:)")
 # def get_english_meaning("./lib/emoticons.yml", e_value)
 #   require "yaml"
 # emoticons.each = YAML.load_file("./lib/emoticons.yml")
