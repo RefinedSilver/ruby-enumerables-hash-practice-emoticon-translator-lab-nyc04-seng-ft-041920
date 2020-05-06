@@ -6,8 +6,8 @@ def load_library# array, value
     {:english => {}},
     {:japanese => {}}
   }
-p load_library
 end
+p load_library
 
 def get_japanese_emoticon("./lib/emoticons.yml", j_value)
   require "yaml"
