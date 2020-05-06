@@ -25,8 +25,8 @@ end
 def get_english_meaning(library, emoticon)
   emotions = load_library(library)
   emotions.each do |key, value|
-    if emotions[key][:english] == emoticon
-      return emotions[key][:japanese]
+    if emotions[key][:japanese] == emoticon
+      return emotions[key]
   end
   end
   return "Sorry, that emoticon was not found"
